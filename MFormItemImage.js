@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'public/plugins/wechat-image/css/wechat-image.css';
-import app from '@weijs/app';
+import app from '@mxjs/app';
 
 class MFormItemImage extends React.Component {
   componentWillMount() {
