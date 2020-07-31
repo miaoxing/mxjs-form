@@ -1,0 +1,22 @@
+.search-form {
+  padding: 1rem;
+  margin-bottom: 1rem;
+
+  // 大屏显示多行时
+  @media (min-width: $breakpoint-sm) {
+    & {
+      padding-bottom: 0;
+
+      .control-label, // 兼容bs3
+      .col-form-label {
+        padding-left: 0;
+      }
+    }
+
+    // 表单项换行时，上下留出空白
+    [class*="col-"] {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
