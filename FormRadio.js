@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import FormCheck from './FormCheck';
 
 export default (props) => {

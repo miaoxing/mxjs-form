@@ -2,7 +2,7 @@ import React from 'react';
 import {FormLabel, FormGroup, Row} from 'react-bootstrap';
 import Required from './Required';
 import decamelize from 'decamelize';
-import FormControl from "./FormControl";
+import FormControl from './FormControl';
 
 const MFormItem = ({name, label, ...props}) => {
   const id = name ? decamelize(name, '-') : null;

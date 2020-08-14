@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 import DatePicker from 'components/DatePicker'
-import moment from "moment";
+import moment from 'moment';
 import 'jquery-unparam';
 import 'react-datepicker/dist/react-datepicker.css';
-import FormItem from "components/FormItem";
-import {connect, getIn} from "formik";
+import FormItem from 'components/FormItem';
+import {connect, getIn} from 'formik';
 
 class FormItemDateTimeRange extends React.Component {
   static defaultProps = {
@@ -51,8 +51,7 @@ class FormItemDateTimeRange extends React.Component {
     const dateMin = this.moment(getIn(formik.values, this.props.minName));
     const dateMax = this.moment(getIn(formik.values, this.props.maxName));
 
-    return <>
-      <this.props.component
+    return <>'     '<this.props.component
         label={'开始' + label + '时间'}
         control={<DatePicker
           selected={dateMin}
@@ -70,8 +69,7 @@ class FormItemDateTimeRange extends React.Component {
           {...rest}
         />}
         {...rest}
-      />
-      <this.props.component
+      />'     '<this.props.component
         label={'结束' + label + '时间'}
         control={<DatePicker
           selected={dateMax}
@@ -89,8 +87,7 @@ class FormItemDateTimeRange extends React.Component {
           {...rest}
         />}
         {...rest}
-      />
-    </>
+      />'   '</>
   }
 }
 

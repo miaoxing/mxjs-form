@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Form} from "react-bootstrap";
-import {withTable} from "@mxjs/a-table";
-import {Formik} from "formik";
+import {Form} from 'react-bootstrap';
+import {withTable} from '@mxjs/a-table';
+import {Formik} from 'formik';
 import _ from 'lodash';
-import parseStr from "locutus/php/strings/parse_str";
+import parseStr from 'locutus/php/strings/parse_str';
 
 class SearchFormik extends React.Component {
   static defaultProps = {

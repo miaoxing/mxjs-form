@@ -3,8 +3,8 @@ import {findDOMNode} from 'react-dom';
 import PropTypes from 'prop-types';
 import 'jquery-update-event';
 import 'load-query';
-import {Form} from "react-bootstrap";
-import {withTable} from "components/TableProvider";
+import {Form} from 'react-bootstrap';
+import {withTable} from 'components/TableProvider';
 
 class SearchForm extends React.Component {
   componentDidMount() {

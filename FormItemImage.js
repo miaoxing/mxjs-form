@@ -1,7 +1,7 @@
 import React from 'react';
-import FormItem from "components/FormItem";
-import ReactDOM from "react-dom";
-import {connect} from "formik";
+import FormItem from 'components/FormItem';
+import ReactDOM from 'react-dom';
+import {connect} from 'formik';
 import rp from 'require-promise';
 
 const loader = rp('plugins/admin/js/image-upload');

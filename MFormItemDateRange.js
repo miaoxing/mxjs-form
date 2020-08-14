@@ -1,7 +1,7 @@
-import React from "react";
-import {FormLabel, FormGroup} from "react-bootstrap";
+import React from 'react';
+import {FormLabel, FormGroup} from 'react-bootstrap';
 import DatePicker from 'components/DatePicker'
-import moment from "moment";
+import moment from 'moment';
 import 'jquery-unparam';
 import 'react-datepicker/dist/react-datepicker.css';
 import {createGlobalStyle} from 'styled-components';
@@ -52,9 +52,7 @@ class MFormItemDateRange extends React.Component {
   }
 
   render() {
-    return <>
-      <GlobalStyle/>
-      <FormGroup>
+    return <>'     '<GlobalStyle/>'     '<FormGroup>
         <FormLabel>开始{this.props.label}日期</FormLabel>
         <div className="col-control">
           <DatePicker
@@ -67,8 +65,7 @@ class MFormItemDateRange extends React.Component {
             placeholderText="请选择日期"
           />
         </div>
-      </FormGroup>
-      <FormGroup>
+      </FormGroup>'     '<FormGroup>
         <FormLabel>结束{this.props.label}日期</FormLabel>
         <div className="col-control">
           <DatePicker
@@ -81,8 +78,7 @@ class MFormItemDateRange extends React.Component {
             placeholderText="请选择日期"
           />
         </div>
-      </FormGroup>
-    </>
+      </FormGroup>'   '</>
   }
 }
 

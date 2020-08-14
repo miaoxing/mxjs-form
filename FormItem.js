@@ -1,8 +1,8 @@
 import React from 'react';
 import {Col, Form, Row} from 'react-bootstrap';
 import decamelize from 'decamelize';
-import FormControl from "./FormControl";
-import Required from "./Required";
+import FormControl from './FormControl';
+import Required from './Required';
 
 function FormGroup({children}) {
   return <Form.Group as={Row}>{children}</Form.Group>

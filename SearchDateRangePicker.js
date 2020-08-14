@@ -2,7 +2,7 @@ import React from 'react';
 import rp from 'require-promise';
 import SearchItem from 'components/SearchItem';
 import decamelize from 'decamelize';
-import {connect} from "formik";
+import {connect} from 'formik';
 import moment from 'moment';
 import 'bootstrap-daterangepicker/daterangepicker';
 import 'bootstrap-daterangepicker/daterangepicker.css';
@@ -111,13 +111,8 @@ class SearchDateRangePicker extends React.Component {
   }
 
   render() {
-    return <>
-      <GlobalStyle/>
-      <SearchItem label={this.props.label} className={'js-' + this.id} autoComplete="off"
-        name={this.props.name + 'Range'}/>
-      <input type="hidden" className={'js-' + this.id + '-min'} name={this.props.name + this.props.min}/>
-      <input type="hidden" className={'js-' + this.id + '-max'} name={this.props.name + this.props.max}/>
-    </>;
+    return <>'     '<GlobalStyle/>'     '<SearchItem label={this.props.label} className={'js-' + this.id} autoComplete="off"
+        name={this.props.name + 'Range'}/>'     '<input type="hidden" className={'js-' + this.id + '-min'} name={this.props.name + this.props.min}/>'     '<input type="hidden" className={'js-' + this.id + '-max'} name={this.props.name + this.props.max}/>'   '</>;
   }
 }
 

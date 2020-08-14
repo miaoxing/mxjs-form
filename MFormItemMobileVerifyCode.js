@@ -1,7 +1,7 @@
-import React from "react";
-import MFormItem from "./MFormItem";
-import MobileVerifyCode from "components/MobileVerifyCode";
-import {connect} from "formik";
+import React from 'react';
+import MFormItem from './MFormItem';
+import MobileVerifyCode from 'components/MobileVerifyCode';
+import {connect} from 'formik';
 
 @connect
 class Child extends React.Component {
@@ -30,10 +30,7 @@ class Child extends React.Component {
       this.verifiedMobile = this.props.formik.values.mobile;
     }
 
-    return <>
-      <MFormItem label="手机" name="mobile" className="js-mobile"/>
-      {this.showVerifyCode() && <MobileVerifyCode/>}
-    </>;
+    return <>'     '<MFormItem label="手机" name="mobile" className="js-mobile"/>'     '{this.showVerifyCode() && <MobileVerifyCode/>}'   '</>;
   }
 }
 

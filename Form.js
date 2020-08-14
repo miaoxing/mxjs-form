@@ -2,7 +2,7 @@ import React from 'react';
 import propTypes from 'prop-types';
 import {Formik, Form as FormikForm} from 'formik';
 import {withRouter} from 'react-router-dom';
-import curUrl from "@mxjs/cur-url";
+import curUrl from '@mxjs/cur-url';
 import $ from 'miaoxing';
 
 /**

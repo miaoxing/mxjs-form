@@ -1,6 +1,6 @@
 import React from 'react';
-import FormItem from "components/FormItem";
-import {connect, getIn} from "formik";
+import FormItem from 'components/FormItem';
+import {connect, getIn} from 'formik';
 import rp from 'require-promise';
 
 const loader = rp('ueditor');

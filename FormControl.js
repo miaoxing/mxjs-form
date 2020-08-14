@@ -1,8 +1,8 @@
 import React from 'react';
 import {FormControl as RbFormControl} from 'react-bootstrap';
-import {connect} from "formik";
-import Field from "./Field";
-import Options from "./Options";
+import {connect} from 'formik';
+import Field from './Field';
+import Options from './Options';
 
 function isSelect(props) {
   const firstChild = React.Children.toArray(props.children)[0];
