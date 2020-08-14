@@ -57,7 +57,7 @@ class SearchDateRangePicker extends React.Component {
         '本月': [moment().startOf('month'), moment().endOf('month')],
         /*'上月': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, month).endOf('month')]*/
         '本季度': [moment().startOf('quarter'), moment().endOf('quarter')],
-      }
+      },
     }).on('apply.daterangepicker', (ev, picker) => {
       this.updateValues(picker.startDate, picker.endDate);
     }).on('cancel.daterangepicker', (ev, picker) => {

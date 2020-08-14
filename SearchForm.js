@@ -34,11 +34,11 @@ class SearchForm extends React.Component {
 }
 
 SearchForm.defaultProps = {
-  loadQuery: true
+  loadQuery: true,
 };
 
 SearchForm.propTypes = {
-  loadQuery: PropTypes.bool
+  loadQuery: PropTypes.bool,
 };
 
 export default withTable(SearchForm);

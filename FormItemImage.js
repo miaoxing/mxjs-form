@@ -37,7 +37,7 @@ class FormItemImage extends React.Component {
             images.push($(this).find('input').val());
           });
           this.props.formik.setFieldValue(this.props.name, images);
-        }
+        },
       });
     });
   }

@@ -17,10 +17,10 @@ class MFormItemImage extends React.Component {
     requirejs([
       'plugins/wechat-image/js/wechat-image',
       'plugins/wechat/js/wx',
-      'plugins/app/libs/artTemplate/template.min'
+      'plugins/app/libs/artTemplate/template.min',
     ], (image, wx, template) => {
       $('.js-upload-container', dom).html(template.render('wx-upload-image-tpl', {
-        title: '图片' + (this.props.required ? ' <span class="text-warning">*</span>' : '')
+        title: '图片' + (this.props.required ? ' <span class="text-warning">*</span>' : ''),
       }));
 
       const img = new image.constructor;

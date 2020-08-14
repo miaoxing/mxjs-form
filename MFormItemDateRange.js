@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
 class MFormItemDateRange extends React.Component {
   static defaultProps = {
     min: 'Min',
-    max: 'Max'
+    max: 'Max',
   };
 
   minName = this.props.name + this.props.min;

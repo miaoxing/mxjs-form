@@ -29,7 +29,7 @@ class Options extends React.Component {
 Options.defaultProps = {
   labelKey: 'label',
   valueKey: 'value',
-  placeholder: '请选择'
+  placeholder: '请选择',
 };
 
 Options.propTypes = {
@@ -39,7 +39,7 @@ Options.propTypes = {
   ]),
   labelKey: PropTypes.string,
   valueKey: PropTypes.string,
-  placeholder: PropTypes.string
+  placeholder: PropTypes.string,
 };
 
 export default Options;
