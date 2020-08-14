@@ -41,6 +41,6 @@ export default class MFormItemMobileVerifyCode extends React.Component {
   }
 
   render() {
-    return <Child {...this.props}/>
+    return <Child {...this.props}/>;
   }
 }

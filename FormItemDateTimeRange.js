@@ -1,5 +1,5 @@
 import React from 'react';
-import DatePicker from 'components/DatePicker'
+import DatePicker from 'components/DatePicker';
 import moment from 'moment';
 import 'jquery-unparam';
 import 'react-datepicker/dist/react-datepicker.css';
@@ -87,7 +87,7 @@ class FormItemDateTimeRange extends React.Component {
           {...rest}
         />}
         {...rest}
-      />'   '</>
+      />'   '</>;
   }
 }
 

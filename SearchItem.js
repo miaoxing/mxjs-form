@@ -9,4 +9,4 @@ class SearchItem extends React.Component {
   }
 }
 
-export default SearchItem
+export default SearchItem;

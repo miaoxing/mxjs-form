@@ -1,6 +1,6 @@
 import React from 'react';
 import {FormLabel, FormGroup} from 'react-bootstrap';
-import DatePicker from 'components/DatePicker'
+import DatePicker from 'components/DatePicker';
 import moment from 'moment';
 import 'jquery-unparam';
 import 'react-datepicker/dist/react-datepicker.css';
@@ -78,7 +78,7 @@ class MFormItemDateRange extends React.Component {
             placeholderText="请选择日期"
           />
         </div>
-      </FormGroup>'   '</>
+      </FormGroup>'   '</>;
   }
 }
 

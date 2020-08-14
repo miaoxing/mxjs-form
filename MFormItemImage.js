@@ -71,7 +71,7 @@ class MFormItemImage extends React.Component {
             </div>
             `}
       </script>
-    </div>
+    </div>;
   }
 }
 

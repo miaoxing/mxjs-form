@@ -20,7 +20,7 @@ class FormItemDatePicker extends React.Component {
         withPortal={false}
       />}
       {...rest}
-    />
+    />;
   }
 }
 

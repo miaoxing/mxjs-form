@@ -5,7 +5,7 @@ import FormControl from './FormControl';
 import Required from './Required';
 
 function FormGroup({children}) {
-  return <Form.Group as={Row}>{children}</Form.Group>
+  return <Form.Group as={Row}>{children}</Form.Group>;
 }
 
 function FormItem({container = FormGroup, label, name, help, labelSize = 2, controlSize = 4, helpSize = 6, groupSize, ...props}) {

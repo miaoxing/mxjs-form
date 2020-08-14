@@ -45,7 +45,7 @@ class FormItemImage extends React.Component {
   render() {
     const {...rest} = this.props;
 
-    return <FormItem required {...rest}/>
+    return <FormItem required {...rest}/>;
   }
 }
 

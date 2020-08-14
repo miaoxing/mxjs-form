@@ -7,18 +7,18 @@ class Options extends React.Component {
     const options = [];
 
     if (this.props.placeholder) {
-      options.push(<option key="" value="">{this.props.placeholder}</option>)
+      options.push(<option key="" value="">{this.props.placeholder}</option>);
     }
 
     const isArray = Array.isArray(this.props.data);
     map(this.props.data, (option, key) => {
       if (typeof option === 'object') {
         options.push(<option key={option[this.props.valueKey]}
-          value={option[this.props.valueKey]}>{option[this.props.labelKey]}</option>)
+          value={option[this.props.valueKey]}>{option[this.props.labelKey]}</option>);
       } else if (isArray) {
-        options.push(<option key={option} value={option}>{option}</option>)
+        options.push(<option key={option} value={option}>{option}</option>);
       } else {
-        options.push(<option key={key} value={key}>{option}</option>)
+        options.push(<option key={key} value={key}>{option}</option>);
       }
     });
 
@@ -42,4 +42,4 @@ Options.propTypes = {
   placeholder: PropTypes.string
 };
 
-export default Options
+export default Options;

@@ -29,15 +29,15 @@ export default ({id, label, ...props}) => {
               nextValue = field.value.concat(props.value);
             }
             form.setFieldValue(props.name, nextValue);
-          }
+          };
         } else {
           // 单个checkbox或radio的情况
           // HTML会转换为字符串，因此不能用严格比较
           checked = props.value == field.value;
         }
 
-        return <Form.Check custom checked={checked} id={id} label={label} {...field} {...props} {...extProps}/>
+        return <Form.Check custom checked={checked} id={id} label={label} {...field} {...props} {...extProps}/>;
       }}
     />
   );
-}
+};

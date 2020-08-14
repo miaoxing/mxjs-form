@@ -7,7 +7,7 @@ function Field(props) {
     // TODO formik v2 无效
     props.formik.values = setIn(props.formik.values, props.name, '');
   }
-  return <FormikField {...props}/>
+  return <FormikField {...props}/>;
 }
 
 export default connect(Field);
