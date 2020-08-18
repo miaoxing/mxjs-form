@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
     position: relative;
     top: -2px;
   }
-  
+
   // 适当美化原生的年月下拉
   .yearselect,
   .monthselect {
@@ -111,8 +111,13 @@ class SearchDateRangePicker extends React.Component {
   }
 
   render() {
-    return <>'     '<GlobalStyle/>'     '<SearchItem label={this.props.label} className={'js-' + this.id} autoComplete="off"
-        name={this.props.name + 'Range'}/>'     '<input type="hidden" className={'js-' + this.id + '-min'} name={this.props.name + this.props.min}/>'     '<input type="hidden" className={'js-' + this.id + '-max'} name={this.props.name + this.props.max}/>'   '</>;
+    return <>
+      <GlobalStyle/>
+      <SearchItem label={this.props.label} className={'js-' + this.id} autoComplete="off"
+        name={this.props.name + 'Range'}/>
+      <input type="hidden" className={'js-' + this.id + '-min'} name={this.props.name + this.props.min}/>
+      <input type="hidden" className={'js-' + this.id + '-max'} name={this.props.name + this.props.max}/>
+    </>;
   }
 }
 

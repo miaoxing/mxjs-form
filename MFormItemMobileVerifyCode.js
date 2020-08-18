@@ -30,7 +30,10 @@ class Child extends React.Component {
       this.verifiedMobile = this.props.formik.values.mobile;
     }
 
-    return <>'     '<MFormItem label="手机" name="mobile" className="js-mobile"/>'     '{this.showVerifyCode() && <MobileVerifyCode/>}'   '</>;
+    return <>
+      <MFormItem label="手机" name="mobile" className="js-mobile"/>
+      {this.showVerifyCode() && <MobileVerifyCode/>}
+    </>;
   }
 }
 
