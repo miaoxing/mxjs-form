@@ -88,7 +88,7 @@ class Form extends React.Component {
 
   getValuesUrl() {
     if (typeof this.props.valuesUrl === 'undefined') {
-      return curUrl.api();
+      return curUrl.apiData();
     }
 
     return this.props.valuesUrl;
