@@ -1,3 +1,22 @@
+# [0.2.0](https://github.com/miaoxing/mxjs-form/compare/v0.1.3...v0.2.0) (2020-09-01)
+
+
+### Bug Fixes
+
+* 还原 eslint 旧版 fix 生成的错误内容 ([0ffe2d8](https://github.com/miaoxing/mxjs-form/commit/0ffe2d8a70eaf1acff786b5843e7418fd2b43361))
+
+
+### Code Refactoring
+
+* 更改接口为 REST 风格 ([bcd85b4](https://github.com/miaoxing/mxjs-form/commit/bcd85b402abccfb6780d5371fd271c6d56b4490e))
+* 重构 app 包，增加 Req，Url，Event 服务，统一配置 ([ac1d342](https://github.com/miaoxing/mxjs-form/commit/ac1d342bbe15a7031901e9fa67bb8316236f8c8d))
+
+
+### BREAKING CHANGES
+
+* 重构 app 包，增加 Req，Url，Event 等服务，统一配置
+* 更改接口为 REST 风格
+
 ## [0.1.3](https://github.com/miaoxing/mxjs-form/compare/v0.1.2...v0.1.3) (2020-08-17)
 
 
