@@ -1,7 +1,7 @@
+import $ from 'miaoxing';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'public/plugins/wechat-image/css/wechat-image.css';
-import app from '@mxjs/app';
 
 class MFormItemImage extends React.Component {
   componentWillMount() {
@@ -29,7 +29,7 @@ class MFormItemImage extends React.Component {
         images: this.props.images,
         wx: wx,
         max: 10,
-        uploadUrl: app.url('wechat-image/get-wechat-image'),
+        uploadUrl: $.url('wechat-image/get-wechat-image'),
         chooseImageOptions: this.props.chooseImageOptions,
       });
     });
