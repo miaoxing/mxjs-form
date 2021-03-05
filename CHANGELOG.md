@@ -1,3 +1,13 @@
+## [0.2.2](https://github.com/miaoxing/mxjs-form/compare/v0.2.1...v0.2.2) (2021-03-05)
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/dev:** upgrade from 6.1.2 to 6.2.0
+
 ## [0.2.1](https://github.com/miaoxing/mxjs-form/compare/v0.2.0...v0.2.1) (2020-09-25)
 
 
