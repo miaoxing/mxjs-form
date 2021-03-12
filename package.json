@@ -27,6 +27,12 @@
   "bugs": {
     "url": "https://github.com/twinh/miaoxing/issues"
   },
+  "dependencies": {
+    "formik": "^1.5.8",
+    "classnames": "^2.2.6",
+    "react-bootstrap": "^1.0.0",
+    "locutus": "^2.0.11"
+  },
   "devDependencies": {
     "@miaoxing/dev": "^6.3.2",
     "@testing-library/react": "^10.0.4",
