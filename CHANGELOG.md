@@ -1,3 +1,18 @@
+## [0.2.6](https://github.com/miaoxing/mxjs-form/compare/v0.2.5...v0.2.6) (2021-03-12)
+
+
+### Bug Fixes
+
+* 更新前端包依赖 ([fafa4f1](https://github.com/miaoxing/mxjs-form/commit/fafa4f195f3f5506bba51481f23dcbcb4b7a2a88))
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/dev:** upgrade from `6.3.2` to `6.3.3`
+
 ## [0.2.5](https://github.com/miaoxing/mxjs-form/compare/v0.2.4...v0.2.5) (2021-03-10)
 
 
