@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/form",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "> TODO: description",
   "author": "twinh <twinhuang@qq.com>",
   "homepage": "https://github.com/twinh/miaoxing#readme",
@@ -34,7 +34,7 @@
     "locutus": "^2.0.11"
   },
   "devDependencies": {
-    "@miaoxing/dev": "^6.3.3",
+    "@miaoxing/dev": "^6.3.4",
     "@testing-library/react": "^10.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
