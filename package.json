@@ -28,22 +28,33 @@
     "url": "https://github.com/twinh/miaoxing/issues"
   },
   "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "formik": "^1.5.8",
     "classnames": "^2.2.6",
     "react-bootstrap": "^1.0.0",
-    "locutus": "^2.0.11"
+    "locutus": "^2.0.11",
+    "prop-types": "^15.7.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "@mxjs/cur-url": "^0.2.10",
+    "miaoxing": "^0.2.3",
+    "@mxjs/a-clink": "^0.1.6",
+    "decamelize": "^5.0.0",
+    "lodash": "^4.17.21",
+    "jquery": "^3.6.0",
+    "@mxjs/a-table": "^0.3.9"
   },
   "devDependencies": {
     "@miaoxing/dev": "^6.4.0",
-    "@testing-library/react": "^11.2.6",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "@testing-library/react": "^11.2.6"
   },
   "jest": {
     "preset": "jest-preset-miaoxing"
   },
   "ciDependencies": {
     "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing",
-    "@miaoxing/dev": "miaoxing/dev"
+    "@miaoxing/dev": "miaoxing/dev",
+    "@mxjs/a-table": "miaoxing/mxjs-a-table"
   }
 }
