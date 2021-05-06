@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import {FormLabel, FormGroup} from 'react-bootstrap';
 import DatePicker from 'components/DatePicker';
@@ -5,6 +6,7 @@ import moment from 'moment';
 import 'jquery-unparam';
 import 'react-datepicker/dist/react-datepicker.css';
 import {createGlobalStyle} from 'styled-components';
+import $ from 'jquery';
 
 const GlobalStyle = createGlobalStyle`
   .form .form-label {

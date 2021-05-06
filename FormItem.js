@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import {Col, Form, Row} from 'react-bootstrap';
 import decamelize from 'decamelize';

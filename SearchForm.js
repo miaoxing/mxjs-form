@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import {findDOMNode} from 'react-dom';
 import PropTypes from 'prop-types';
@@ -5,9 +6,11 @@ import 'jquery-update-event';
 import 'load-query';
 import {Form} from 'react-bootstrap';
 import {withTable} from 'components/TableProvider';
+import $ from 'jquery';
 
 class SearchForm extends React.Component {
   componentDidMount() {
+    /* eslint-disable-next-line react/no-find-dom-node */
     const $this = $(findDOMNode(this));
 
     if (this.props.loadQuery) {

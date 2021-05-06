@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import {connect, Field as FormikField, getIn, setIn} from 'formik';
 

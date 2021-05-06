@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import {FormLabel, FormGroup} from 'react-bootstrap';
 import {connect} from 'formik';

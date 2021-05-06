@@ -1,5 +1,5 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
-import rp from 'require-promise';
 import SearchItem from 'components/SearchItem';
 import decamelize from 'decamelize';
 import {connect} from 'formik';
@@ -7,6 +7,7 @@ import moment from 'moment';
 import 'bootstrap-daterangepicker/daterangepicker';
 import 'bootstrap-daterangepicker/daterangepicker.css';
 import {createGlobalStyle} from 'styled-components';
+import $ from 'jquery';
 
 const GlobalStyle = createGlobalStyle`
   // 解决月份为中文时年月下来未对齐
@@ -60,7 +61,7 @@ class SearchDateRangePicker extends React.Component {
       },
     }).on('apply.daterangepicker', (ev, picker) => {
       this.updateValues(picker.startDate, picker.endDate);
-    }).on('cancel.daterangepicker', (ev, picker) => {
+    }).on('cancel.daterangepicker', () => {
       this.updateValues(null, null);
     }).on('blur', (e) => {
       var $el = $(e.target);

@@ -1,8 +1,10 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import FormItem from 'components/FormItem';
 import ReactDOM from 'react-dom';
 import {connect} from 'formik';
 import rp from 'require-promise';
+import $ from 'jquery';
 
 const loader = rp('plugins/admin/js/image-upload');
 
@@ -24,6 +26,7 @@ class FormItemImage extends React.Component {
   }
 
   componentDidMount() {
+    /* eslint-disable-next-line react/no-find-dom-node */
     const dom = ReactDOM.findDOMNode(this);
     this.$el = $('input', dom);
 

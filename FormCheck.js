@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import {Form} from 'react-bootstrap';
-import {Field, getIn} from 'formik';
+import {Field} from 'formik';
 
 export default ({id, label, ...props}) => {
   if (!id) {

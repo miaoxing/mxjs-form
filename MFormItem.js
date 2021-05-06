@@ -1,5 +1,6 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
-import {FormLabel, FormGroup, Row} from 'react-bootstrap';
+import {FormLabel, FormGroup} from 'react-bootstrap';
 import Required from './Required';
 import decamelize from 'decamelize';
 import FormControl from './FormControl';

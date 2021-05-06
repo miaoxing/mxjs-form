@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import {Col} from 'react-bootstrap';
 import classNames from 'classnames';

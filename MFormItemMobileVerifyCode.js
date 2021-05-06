@@ -1,7 +1,9 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import MFormItem from './MFormItem';
 import MobileVerifyCode from 'components/MobileVerifyCode';
 import {connect} from 'formik';
+import $ from 'jquery';
 
 @connect
 class Child extends React.Component {

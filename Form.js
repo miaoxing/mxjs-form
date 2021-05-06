@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import propTypes from 'prop-types';
 import {Formik, Form as FormikForm} from 'formik';
@@ -123,7 +124,7 @@ class Form extends React.Component {
   }
 
   render() {
-    const {render, children, initialValues, formProps, ...props} = this.props;
+    const {render, children, formProps} = this.props;
     return (
       <Formik
         initialValues={this.state.initialValues}
