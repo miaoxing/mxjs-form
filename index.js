@@ -19,5 +19,4 @@ export Options from './Options';
 export Required from './Required';
 export SearchAction from './SearchAction';
 // export SearchDateRangePicker from './SearchDateRangePicker';
-export SearchFormik from './SearchFormik';
 export SearchItem from './SearchItem';
