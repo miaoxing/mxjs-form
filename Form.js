@@ -66,7 +66,7 @@ class Form extends React.Component {
       method: 'post',
       data: values,
       loading: true,
-    }).then(ret => {
+    }).then(({ret}) => {
       $.ret(ret).suc(() => {
         this.redirect(this.getRedirectUrl());
       });
@@ -102,7 +102,7 @@ class Form extends React.Component {
 
     const valuesUrl = this.getValuesUrl();
     if (valuesUrl !== false) {
-      $.get(valuesUrl).then(ret => {
+      $.get(valuesUrl).then(({ret}) => {
         this.setState({initialValues: this.filterValues(ret.data)});
       });
     }
