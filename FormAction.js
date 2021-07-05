@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
-import {Button, Col, Form, Row} from 'react-bootstrap';
+import { Button, Col, Form, Row } from 'react-bootstrap';
 import {CListBtn} from '@mxjs/a-clink';
 
 function FormAction({url, list = true}) {

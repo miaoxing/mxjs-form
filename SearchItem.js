@@ -1,11 +1,9 @@
-import React from 'react';
+import { Fragment, Component } from 'react';
 import FormItem from './FormItem';
 
-class SearchItem extends React.Component {
+class SearchItem extends Component {
   render() {
-    return (
-      <FormItem container={React.Fragment} labelSize={1} controlSize={3} {...this.props} />
-    );
+    return <FormItem container={Fragment} labelSize={1} controlSize={3} {...this.props} />;
   }
 }
 

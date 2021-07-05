@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
-import {Col, Form, Row} from 'react-bootstrap';
+import { Col, Form, Row } from 'react-bootstrap';
 import decamelize from 'decamelize';
 import FormControl from './FormControl';
 import Required from './Required';

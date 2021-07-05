@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
+import { Component } from 'react';
 import DatePicker from 'components/DatePicker';
 import moment from 'moment';
 import 'jquery-unparam';
@@ -7,7 +7,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 import FormItem from 'components/FormItem';
 import {connect, getIn} from 'formik';
 
-class FormItemDateTimeRange extends React.Component {
+class FormItemDateTimeRange extends Component {
   static defaultProps = {
     label: '',
     minName: 'startedAt',

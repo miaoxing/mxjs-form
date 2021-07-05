@@ -1,12 +1,12 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
+import { Children } from 'react';
 import {FormControl as RbFormControl} from 'react-bootstrap';
 import {connect} from 'formik';
 import Field from './Field';
 import Options from './Options';
 
 function isSelect(props) {
-  const firstChild = React.Children.toArray(props.children)[0];
+  const firstChild = Children.toArray(props.children)[0];
   return firstChild && (firstChild.type === 'option' || firstChild.type === <Options/>.type);
 }
 

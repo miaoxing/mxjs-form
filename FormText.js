@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
-import {Col, FormLabel, FormGroup, Row} from 'react-bootstrap';
+import { Col, FormLabel, FormGroup, Row } from 'react-bootstrap';
 
 const FormText = ({label, control, labelSize = 2, detailSize = 10, children}) => {
   return <FormGroup as={Row}>

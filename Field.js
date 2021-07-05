@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
-import {connect, Field as FormikField, getIn, setIn} from 'formik';
+import { connect, Field as FormikField, getIn, setIn } from 'formik';
 
 function Field(props) {
   // NOTE: 提交时,touch === undefined

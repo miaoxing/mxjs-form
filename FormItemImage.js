@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
+import { Component } from 'react';
 import FormItem from 'components/FormItem';
 import ReactDOM from 'react-dom';
 import {connect} from 'formik';
@@ -8,7 +8,7 @@ import $ from 'jquery';
 
 const loader = rp('plugins/admin/js/image-upload');
 
-class FormItemImage extends React.Component {
+class FormItemImage extends Component {
   static defaultProps = {
     label: '图片',
     name: 'images',

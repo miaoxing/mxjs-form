@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
 /* global requirejs */
 import $ from 'miaoxing';
-import React from 'react';
+import { Component } from 'react';
 import ReactDOM from 'react-dom';
 import 'public/plugins/wechat-image/css/wechat-image.css';
 
-class MFormItemImage extends React.Component {
+class MFormItemImage extends Component {
   componentDidMount() {
     // 进入页面要刷新接口才能上传
     requirejs(['plugins/wechat/js/wx'], function (wx) {

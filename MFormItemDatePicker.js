@@ -1,12 +1,12 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
+import { Component } from 'react';
 import {FormLabel, FormGroup} from 'react-bootstrap';
 import {connect} from 'formik';
 import moment from 'moment';
 import Required from './Required';
 import DatePicker from 'components/DatePicker';
 
-class MFormItemDatePicker extends React.Component {
+class MFormItemDatePicker extends Component {
   handleChange(date) {
     this.props.formik.setFieldValue(this.props.name, date ? date.format('YYYY-MM-DD') : '');
   }

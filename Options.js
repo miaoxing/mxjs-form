@@ -1,8 +1,8 @@
-import React from 'react';
+import { Component } from 'react';
 import PropTypes from 'prop-types';
 import map from 'lodash/map';
 
-class Options extends React.Component {
+class Options extends Component {
   render () {
     const options = [];
 

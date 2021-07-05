@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
+import { Component } from 'react';
 import {FormLabel, FormGroup} from 'react-bootstrap';
 import DatePicker from 'components/DatePicker';
 import moment from 'moment';
@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-class MFormItemDateRange extends React.Component {
+class MFormItemDateRange extends Component {
   static defaultProps = {
     min: 'Min',
     max: 'Max',

@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
+import { Component } from 'react';
 import propTypes from 'prop-types';
 import {Formik, Form as FormikForm} from 'formik';
 import {withRouter} from 'react-router-dom';
@@ -14,7 +14,7 @@ import $ from 'miaoxing';
  * 3. 点击提交数据发送到后台
  * 4. 提交成功后跳转到相应页面
  */
-class Form extends React.Component {
+class Form extends Component {
   static propTypes = {
     /**
      * 提交到后台的地址，默认自动识别为当前表单地址
