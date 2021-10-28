@@ -1,3 +1,27 @@
+# [0.3.0](https://github.com/miaoxing/mxjs-form/compare/v0.2.10...v0.3.0) (2021-10-28)
+
+
+### Features
+
+* `react` 依赖移到 `peerDependencies` 中，开发依赖使用 `react` 17 ([3ae04ef](https://github.com/miaoxing/mxjs-form/commit/3ae04ef773e1ebe81b31fd689e8988290a1fa0c5))
+
+
+### BREAKING CHANGES
+
+* `react` 依赖移到 `peerDependencies` 中，开发依赖使用 `react` 17
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/cur-url:** upgrade from `0.2.12` to `0.2.13`
+* **miaoxing:** upgrade from `0.2.5` to `0.3.0`
+* **@mxjs/a-clink:** upgrade from `0.1.8` to `0.2.0`
+* **@mxjs/a-table:** upgrade from `0.3.11` to `0.4.0`
+* **@miaoxing/dev:** upgrade from `7.0.1` to `8.0.0`
+
 ## [0.2.10](https://github.com/miaoxing/mxjs-form/compare/v0.2.9...v0.2.10) (2021-05-12)
 
 
