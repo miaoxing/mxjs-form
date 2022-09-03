@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/form",
-  "version": "0.3.8",
+  "version": "0.3.9",
   "description": "> TODO: description",
   "author": "twinh <twinhuang@qq.com>",
   "homepage": "https://github.com/miaoxing/miaoxing#readme",
@@ -41,7 +41,7 @@
     "decamelize": "^5.0.0",
     "lodash": "^4.17.21",
     "jquery": "^3.6.0",
-    "@mxjs/a-table": "^1.0.1"
+    "@mxjs/a-table": "^1.0.2"
   },
   "devDependencies": {
     "@miaoxing/dev": "^8.1.3",
