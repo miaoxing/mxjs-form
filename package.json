@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/form",
-  "version": "0.3.19",
+  "version": "0.3.20",
   "description": "> TODO: description",
   "author": "twinh <twinhuang@qq.com>",
   "homepage": "https://github.com/miaoxing/miaoxing#readme",
@@ -35,13 +35,13 @@
     "prop-types": "^15.7.2",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "@mxjs/cur-url": "^1.0.4",
+    "@mxjs/cur-url": "^1.0.5",
     "miaoxing": "^0.4.7",
-    "@mxjs/a-clink": "^1.2.2",
+    "@mxjs/a-clink": "^2.0.0",
     "decamelize": "^5.0.0",
     "lodash": "^4.17.21",
     "jquery": "^3.6.0",
-    "@mxjs/a-table": "^1.5.0"
+    "@mxjs/a-table": "^1.5.1"
   },
   "devDependencies": {
     "@miaoxing/dev": "^8.2.1",
