@@ -1,3 +1,13 @@
+## [0.3.23](https://github.com/miaoxing/mxjs-form/compare/v0.3.22...v0.3.23) (2023-11-02)
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-table:** upgrade from `1.5.3` to `1.6.0`
+
 ## [0.3.22](https://github.com/miaoxing/mxjs-form/compare/v0.3.21...v0.3.22) (2023-09-02)
 
 
