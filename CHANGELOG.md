@@ -1,3 +1,19 @@
+## [0.3.27](https://github.com/miaoxing/mxjs-form/compare/v0.3.26...v0.3.27) (2024-01-31)
+
+
+### Features
+
+* 更新 `react` 支持 18 ([0251311](https://github.com/miaoxing/mxjs-form/commit/02513115ee8b956c2f5f33ec7d87a4341a27933f))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-clink:** upgrade from `2.0.5` to `2.1.0`
+* **@mxjs/a-table:** upgrade from `1.6.3` to `1.7.0`
+
 ## [0.3.26](https://github.com/miaoxing/mxjs-form/compare/v0.3.25...v0.3.26) (2024-01-08)
 
 
